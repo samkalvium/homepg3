@@ -1,0 +1,196 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    /* background-image: url("https://img.freepik.com/premium-photo/abstract-blurred-gradient-background_753751-1815.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    color: white;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo{
+    display: flex;
+}
+.logo h1{
+    margin-top: 30px;
+    color: rgb(239,59,61);
+}
+
+
+/*header*/
+
+.backimg{
+    background-image: url('homeback.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 750px;
+    margin-top: -60px;
+    width: 500px;
+}
+
+a{
+    color: rgb(239,59,61);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a:hover{
+    color:white;
+}
+
+
+
+/*squad-50*/
+.sq{
+    text-align: center;
+    margin-top: 180px;
+}
+
+.br1{
+    font-size: 35px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
+.red{
+    /* background: linear-gradient(90deg,red,black); */
+    /* color: transparent; */
+    /* -webkit-background-clip: text; */
+    color: rgb(239,59,61);
+    font-family: 'DM Serif Display', serif;
+}
+
+h5{
+    margin-top: -30px;
+    font-style: italic;
+    color: white;
+}
+
+
+/* Scroll thing */
+
+#scroll {
+    width: 80px;
+    margin-top: -30px;
+    margin-left: 648px;
+}
+
+#scroll{
+    /* border: 1px solid red; */
+    position:relative;
+    animation: slide 1s infinite;
+}
+
+@keyframes slide{
+    from{
+        top: 0px;
+    }
+    to{
+        top: 40px;
+    }
+}
+
+/* MEMEBERS EDIT SECTION  */
+#imgi{
+    width: 250px;
+    border-radius: 50%;
+}
+
+.redirect{
+    background-color: black;
+    padding: 8px;
+    color: white;
+    border-radius: 10px;
+}
+
+.redirect:hover{
+    background-color: white;
+    color:black;
+}
+
+/* Proud Kalvians text  */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');.headin{
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    text-decoration: underline;
+}
+
+/* member 1  */
+.mem1{
+    display: flex;    
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color:gray;
+    width: 1100px;
+    margin-left: 50px;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.text{
+    /* border: 1px solid red; */
+    width: 800px;
+    margin-left: 50px;
+    font-size: larger;
+}
+
+/* member 2  */
+
+.mem2{
+    display: flex;    
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color:gray;
+    width: 1100px;
+    margin-left: 150px;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+
+/* CAMPUS */
+/* code goes here  */
+.campus{
+    background-color: white;
+    padding: 10px;
+}
+
+
+
+/* GALLERY  */
+/* code goes here  */
+
+.gallry{
+    padding: 10px;
+    background-color: white;
+   padding-left: 80px;
+}
+
+
+
+/* FOOTER  */
+footer{
+    text-align: center;
+}
+
+hr{
+    width: 1000px;
+}
+
+.backtotop{
+    position: sticky;
+    top: 620px;
+    margin-left: 1300px;
+}
